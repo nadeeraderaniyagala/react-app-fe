@@ -49,6 +49,7 @@ const Book = (props) => (
         onClick={() => {
           props.deleteBook(props.keyt);
         }}
+        style={{ backgroundColor: 'red', marginRight: '5px' }}
       />
 
       <input
@@ -57,6 +58,7 @@ const Book = (props) => (
         onClick={() => {
           props.editBook(props.keyt);
         }}
+        style={{ backgroundColor: 'blue' }}
       />
     </div>
   </div>
